@@ -1,0 +1,9 @@
+listing_id,neighborhood,property_type,bedrooms,size_sqm,price_usd,days_on_market
+L001,Chapinero,Apartment,2,68,155000,22
+L002,Usaquen,Apartment,3,92,240000,31
+L003,Centro,Studio,1,38,78000,18
+L004,Chapinero,Apartment,3,104,285000,27
+L005,Suba,House,4,180,310000,55
+L006,Usaquen,House,4,210,430000,44
+L007,Centro,Apartment,2,62,120000,25
+L008,Suba,Apartment,3,86,165000,39
