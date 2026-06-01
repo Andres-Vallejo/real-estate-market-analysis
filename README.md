@@ -1,38 +1,34 @@
 # Real Estate Market Analysis
 
-Market analytics project focused on property prices, neighborhoods, size, price per square meter, and listing dynamics.
+Premium data analytics portfolio project focused on residential market pricing, neighborhood dynamics, property liquidity, and seller strategy.
 
-## Business Questions
+## Executive Scenario
 
-- Which neighborhoods command the highest prices?
-- How does property size relate to price?
-- Where are listings moving fastest?
-- What factors should buyers and sellers watch?
+A real estate advisory team wants to identify undervalued neighborhoods, understand price drivers, and prioritize listings that need pricing intervention. This project turns listing-level data into market intelligence for buyers, sellers, and portfolio managers.
 
-## Repository Structure
+## Advanced Business Questions
 
-```text
-data/                 Sample data for the case study
-src/                  Python analysis workflow
-sql/                  SQL queries for KPI extraction
-reports/              Executive summary and recommendations
-outputs/              Generated analysis outputs, ignored by git
-requirements.txt      Python dependencies
-```
+- Which neighborhoods command the highest price per square meter?
+- What property features explain most of the price variation?
+- Which listings look overpriced relative to comparable inventory?
+- Where is market liquidity strongest or weakest?
+- What recommendations should be made to sellers and investors?
+
+## Premium Structure
+
+- data/market_listings.csv: enhanced synthetic market dataset
+- src/analysis.py: feature engineering, segmentation, regression model, outputs
+- src/dashboard.py: Streamlit dashboard for market exploration
+- sql/market_analysis.sql: analyst-ready SQL queries
+- docs/metric_dictionary.md: KPI and feature definitions
+- reports/executive_summary.md: business recommendations
 
 ## How To Run
 
-```bash
-pip install -r requirements.txt
-python src/analysis.py
-```
+1. Install dependencies: pip install -r requirements.txt
+2. Run the analysis pipeline: python src/analysis.py
+3. Launch the dashboard: streamlit run src/dashboard.py
 
-The script reads `data/sample_data.csv`, creates KPI summaries, and saves generated outputs in `outputs/`.
+## Skills Demonstrated
 
-## Analyst Skills Demonstrated
-
-- Cleaning and profiling a structured dataset
-- Creating KPI summaries with Python
-- Writing SQL-style business questions
-- Translating metrics into executive recommendations
-- Organizing a reproducible portfolio repository
+Python analytics, feature engineering, regression modeling, market segmentation, SQL analytics, KPI design, dashboarding, and executive storytelling.
